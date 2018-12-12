@@ -2,17 +2,14 @@ const yearEvents = [
     // each event will be represented by an array with the following order:
     // [start_day, end_day, start_lat_lon, end_lat_lon, path_color, text, photos_url_list]
 
-    // start in hoi-an
-    [-100, -100, [105.3394, 20.2214], [105.3394, 20.2214], null, "",
-    [['/img/BNL_2353.JPG', ''], ['/img/BNL_2411.JPG', ''], ['/img/BNL_2426.JPG', '']]],
-    // hoi-an to hao-long bay
-    [-10, -4, [105.3394, 20.2214], [106.3721, 21.6681], null, "Just before the new year we were in Vietnam",
-    [['/img/BNL_2518.JPG', ''], ['/img/BNL_2504.JPG', ''], ['/img/BNL_2506.JPG', ''], ['/img/BNL_2524.JPG', ''], ['/img/BNL_2534.JPG', '']]],
-    // hao-long bay to siam reap
-    [-4, 1, [106.3721, 21.6681], [104.8230, 13.3044], null, "Then we flew to Cambodia to ring in 2017!",
-    [['/img/BNL_0003.JPG', ''], ['/img/BNL_0024.JPG', ''], ['/img/BNL_0086.JPG', ''], ['/img/BNL_0109.JPG', ''], ['/img/BNL_0123.JPG', ''], ['/img/BNL_0129.JPG', ''], ['/img/BNL_0160.JPG', '']]],
+    // start in RWC apartment
+    [-100, 0, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We spent our holiday's leading up to 2018 in RWC.", []],
+
+
+
+
     // siam reap to chang mai
-    [1, 5, [104.8230, 13.3044], [100.6920, 17.2881], null, "Our last stop in SE Asia was Thailand",
+    [0, 5, [104.8230, 13.3044], [100.6920, 17.2881], null, "Our last stop in SE Asia was Thailand",
     [['/img/BNL_0206.JPG', ''], ['/img/BNL_0230.JPG', ''], ['/img/DSC_0950.JPG', ''], ['/img/DSC_0953.JPG', ''], ['/img/DSC_0980.JPG', ''], ['/img/DSC_0982.JPG', ''],
     ['/img/DSC_0985.JPG', ''], ['/img/DSC_1029.JPG', ''], ['/img/DSC_1030.JPG', ''], ['/img/DSC_1056.JPG', ''], ['/img/DSC_1076.JPG', ''], ['/img/DSC_1258.JPG', ''],
     ['/img/DSC_1376.JPG', ''], ['/img/DSC_1389.JPG', ''], ['/img/DSC_1446.JPG', ''], ['/img/DSC_1502.JPG', ''], ['/img/DSC_1594.JPG', '']]],
