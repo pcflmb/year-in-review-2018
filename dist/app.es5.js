@@ -9,21 +9,9 @@ var yearEvents = [
     // each event will be represented by an array with the following order:
     // [start_day, end_day, start_lat_lon, end_lat_lon, path_color, text, photos_url_list]
     
-    // start in hoi-an
-    [-100, -100, [105.3394, 20.2214], [105.3394, 20.2214], null, "",
-    ['/img/DSC_0018.JPG', '/img/DSC_0042.JPG', '/img/DSC_0045.JPG', '/img/BNL_2353.JPG', '/img/BNL_2411.JPG']],
-    // hoi-an to hao-long bay
-    [-10, -4, [105.3394, 20.2214], [106.3721, 21.6681], null, "Just before the new year we were in Vietnam",
-    ['/img/DSC_0190.JPG', ['/img/BNL_2518.JPG', ''], ['/img/BNL_2504.JPG', ''], ['/img/BNL_2506.JPG', ''], ['/img/BNL_2524.JPG', ''], ['/img/BNL_2534.JPG', '']]],
-    // hao-long bay to siam reap
-    [-4, 1, [106.3721, 21.6681], [104.8230, 13.3044], null, "Then we flew to Cambodia to ring in 2017!",
-    ['/img/DSC_0285.JPG', '/img/DSC_0314.JPG', ['/img/BNL_0003.JPG', ''], ['/img/BNL_0024.JPG', ''], ['/img/BNL_0086.JPG', ''], ['/img/BNL_0109.JPG', ''], ['/img/BNL_0123.JPG', ''], ['/img/BNL_0129.JPG', ''], ['/img/BNL_0160.JPG', '']]],
-    // siam reap to chang mai
-    [1, 5, [104.8230, 13.3044], [100.6920, 17.2881], null, "Our last stop in SE Asia was Thailand",
-    ['/img/DSC_0436.JPG', '/img/DSC_0440.JPG', '/img/DSC_0509.JPG', '/img/DSC_0514.JPG',
-    ['/img/BNL_0206.JPG', ''], ['/img/BNL_0230.JPG', ''], ['/img/DSC_0950.JPG', ''], ['/img/DSC_0953.JPG', ''], ['/img/DSC_0980.JPG', ''], ['/img/DSC_0982.JPG', ''],
-    ['/img/DSC_0985.JPG', ''], ['/img/DSC_1029.JPG', ''], ['/img/DSC_1030.JPG', ''], ['/img/DSC_1056.JPG', ''], ['/img/DSC_1076.JPG', ''], ['/img/DSC_1258.JPG', ''],
-    ['/img/DSC_1376.JPG', ''], ['/img/DSC_1389.JPG', ''], ['/img/DSC_1446.JPG', ''], ['/img/DSC_1502.JPG', ''], ['/img/DSC_1594.JPG', '']]],
+    // start in RWC
+    [-100, -100, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "", []],
+    [-10, 5, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We spent new years relaxing in RWC", []],
     // chang mai to bangkok
     [5, 10, [100.6920, 17.2881], [101.2084, 13.3044], null, "Our last stop in SE Asia was Thailand",
     ['/img/DSC_0916.JPG', '/img/DSC_0917.JPG', ['/img/BNL_0248.JPG', ''], ['/img/BNL_0275.JPG', ''], ['/img/BNL_0292.JPG', 'Sneaky photo of the Jade Buddah'], ['/img/BNL_0303.JPG', '']]],
@@ -350,7 +338,7 @@ function updateEventText (scrollPercent) {
         }
         // display or hide the event text
         var prevEvent = yearEvents[i - 1]
-        if (dayNum >= startDay && dayNum <= endDay && prevEvent[prevEvent.length - 1].text.innerText !== eventTextDiv.innerText) {
+        if (dayNum >= startDay && dayNum <= endDay && prevEvent && prevEvent[prevEvent.length - 1].text.innerText !== eventTextDiv.innerText) {
             eventTextDiv.className = 'event-text active'
         } else {
             eventTextDiv.className = 'event-text'
