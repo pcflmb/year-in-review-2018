@@ -13,7 +13,7 @@ var yearEvents = [
     [-100, -100, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "", []],
     [-10, 5, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We spent new years relaxing in RWC", []],
     // chang mai to bangkok
-    [5, 10, [100.6920, 17.2881], [101.2084, 13.3044], null, "Our last stop in SE Asia was Thailand",
+/*    [5, 10, [100.6920, 17.2881], [101.2084, 13.3044], null, "Our last stop in SE Asia was Thailand",
     ['/img/DSC_0916.JPG', '/img/DSC_0917.JPG', ['/img/BNL_0248.JPG', ''], ['/img/BNL_0275.JPG', ''], ['/img/BNL_0292.JPG', 'Sneaky photo of the Jade Buddah'], ['/img/BNL_0303.JPG', '']]],
     // bangkok to san francisco 
     [10, 14, [101.2084, 13.3044], [-122.2364, 37.4852], null, "", []],
@@ -109,6 +109,7 @@ var yearEvents = [
     [320, 330, [-122.2364, 37.4852], [-121.412190, 36.013758], null, "We did a weekend camping trip in Big Sur and brought the dogs along!",
     ['/img/IMG_8235.JPG', '/img/IMG_8236.JPG', '/img/IMG_8237.JPG', '/img/IMG_8245.JPG', '/img/IMG_8258.JPG', '/img/IMG_8283.JPG', '/img/IMG_8286.JPG', '/img/IMG_8289.JPG', '/img/IMG_8290.JPG']],
     [330, 335, [-121.412190, 36.013758], [-122.2364, 37.4852], null, "We did a weekend camping trip in Big Sur and brought the dogs along!", []],
+*/
 ]
 
 var DAYS_IN_YEAR = 365
