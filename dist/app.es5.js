@@ -6,12 +6,80 @@ if (!String.prototype.startsWith) {
 }
 
 var yearEvents = [
-    // each event will be represented by an array with the following order:
-    // [start_day, end_day, start_lat_lon, end_lat_lon, path_color, text, photos_url_list]
+  // each event will be represented by an array with the following order:
+  // [start_day, end_day, start_lat_lon, end_lat_lon, path_color, text, photos_url_list]
     
-    // start in RWC
-    [-100, -100, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "", []],
-    [-10, 5, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We spent new years relaxing in RWC", []],
+  // start in RWC
+  [-100, -100, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "", []],
+  [-10, 5, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We spent new years relaxing in RWC with friends", [
+    '/img/BNL_0039.JPG', 
+  ]],
+
+  // Lauren Birthday
+  [5, 15, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "For Lauren's birthday we went to a speakeasy theater after dinner on the water", [
+    
+  ]],
+
+  // visit Oliver & Alyse - ???
+  [18, 24, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "", []],
+  [24, 30, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "", [
+    
+  ]],
+  [30, 36, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "", []],
+
+  // ski in feb
+  [36, 42, [-122.2364, 37.4852], [-120.1210934, 39.2745678], null, "After a few big snow storms we went skiing in Tahoe", []],
+  [42, 50, [-120.1210934, 39.2745678], [-120.1210934, 39.2745678], null, "After a few big snow storms we went skiing in Tahoe", [
+    'img/skiing/1.jpg', 'img/skiing/2.jpg', 'img/skiing/3.jpg', 'img/skiing/4.jpg',
+  ]],
+  [50, 56, [-120.1210934, 39.2745678], [-122.2364, 37.4852], null, "After a few big snow storms we went skiing in Tahoe", []],
+
+  // house search
+  [60, 90, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "The next few months we were busy with our house hunt", []],
+
+  // easter with Jeff & family - April 1
+  [90, 99, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "Easter with the family", [
+    'img/l/IMG_0298.jpeg', 'img/l/IMG_0282.jpeg',
+  ]],
+
+  // wine tasting weekend - memorial day weekend???
+
+  // oliver & alyse wedding - ??
+
+  // verve tournament in Tahoe
+
+  // 4th of July in Fremont - 4th July
+
+  // bastille day - ??
+
+  // bought our home!!! - middle of July
+
+  // floating in Tahoe - end of July
+
+  // camping with the Perry's - early Sept??
+
+  // Karen & Alejandro wedding - Sept 8
+
+  // enjoying the home (apple picking) 
+
+  // Molly's dirth thirty - Tough Mudder - early Oct
+
+  // chris & aaron engagement party - ???
+
+  // pumpking festival
+
+  // Lauren -> Alabama
+
+  // Brendan -> Las Vegas
+
+  // halloween!
+
+  // housewarming party - beginning of November
+
+  // Thanksgiving
+
+  // Brendan birthday Wine & Karaoke
+
     // chang mai to bangkok
 /*    [5, 10, [100.6920, 17.2881], [101.2084, 13.3044], null, "Our last stop in SE Asia was Thailand",
     ['/img/DSC_0916.JPG', '/img/DSC_0917.JPG', ['/img/BNL_0248.JPG', ''], ['/img/BNL_0275.JPG', ''], ['/img/BNL_0292.JPG', 'Sneaky photo of the Jade Buddah'], ['/img/BNL_0303.JPG', '']]],
