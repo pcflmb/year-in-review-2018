@@ -66,37 +66,38 @@ var yearEvents = [
   ]],
 
   // 4th of July in Fremont - 4th July
-  [182, 192, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We celebrated the 4th of July 🇺🇸", [
+  [178, 189, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We celebrated the 4th of July 🇺🇸", [
     '/img/4thjuly/IMG_1253.jpeg', '/img/4thjuly/IMG_1257.jpeg', '/img/4thjuly/IMG_1311.jpeg', '/img/4thjuly/IMG_1320.jpeg', 
   ]],
 
   // bastille day - 
-  [192, 199, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "Then we celebrated Bastille day in Sonoma", [
+  [189, 196, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "Then we celebrated Bastille day in Sonoma", [
     '/img/bastilleday/IMG_1405.jpeg', '/img/bastilleday/IMG_1415.jpeg', '/img/bastilleday/IMG_1419.jpeg', 
   ]],
   
   // bought our home!!! - middle of July
-  [200, 205, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We officialy purchased on our new home in Pacifica!", [
+  [196, 203, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We officialy purchased on our new home in Pacifica!", [
     '/img/newhome/IMG_1422.PNG', '/img/newhome/IMG_1423.PNG', '/img/newhome/IMG_1424.PNG', '/img/newhome/IMG_1425.PNG', '/img/newhome/IMG_1426.PNG', '/img/newhome/IMG_1430.PNG', '/img/newhome/IMG_1431.PNG', '/img/newhome/IMG_1432.PNG', '/img/newhome/IMG_1433.PNG', '/img/newhome/IMG_1434.PNG', '/img/newhome/IMG_1435.PNG', '/img/newhome/IMG_1436.PNG', '/img/newhome/IMG_1437.PNG', '/img/newhome/IMG_1438.PNG', '/img/newhome/IMG_1439.PNG', '/img/newhome/IMG_1440.PNG', '/img/newhome/IMG_1441.PNG', '/img/newhome/IMG_1442.PNG', '/img/newhome/IMG_1443.PNG', '/img/newhome/IMG_1444.PNG', '/img/newhome/IMG_1445.PNG', '/img/newhome/IMG_1720.jpeg', '/img/newhome/IMG_1725.jpeg', '/img/newhome/polar.jpg', 
   ]],
 
   // floating in Tahoe - end of July
-  [205, 215, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "To finish the summer strong, we went floating down the Tahoe river", [
+  [203, 215, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "To finish the summer strong, we went floating down the Tahoe river", [
     '/img/floating/0.JPG', '/img/floating/IMG_0001.JPG', '/img/floating/IMG_0018.JPG', '/img/floating/IMG_0029.jpeg', '/img/floating/IMG_0031.JPG', '/img/floating/IMG_0038.JPG', '/img/floating/IMG_0043.JPG', '/img/floating/IMG_0047.JPG', '/img/floating/IMG_0052.JPG', '/img/floating/IMG_1459.jpeg', '/img/floating/IMG_1477.jpeg', 
   ]],
 
   // camping with the Perry's - early Sept??
   [215, 225, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "...and went camping a few weeks later in Soda Springs", [
-    '/img/camping/forest.jpg', '/img/camping/IMG_1597.jpeg', '/img/camping/IMG_1600.jpeg', '/img/camping/IMG_1607.jpeg', '/img/camping/IMG_1613.jpeg', '/img/camping/IMG_1632.jpeg', '/img/camping/IMG_1645.jpeg', '/img/camping/IMG_1657.jpeg', '/img/camping/IMG_1674.jpeg', 
+    '/img/camping/IMG_1597.jpeg', '/img/camping/forest.jpg', '/img/camping/IMG_1600.jpeg', '/img/camping/IMG_1607.jpeg', '/img/camping/IMG_1613.jpeg', '/img/camping/IMG_1632.jpeg', '/img/camping/IMG_1645.jpeg', '/img/camping/IMG_1657.jpeg', '/img/camping/IMG_1674.jpeg', 
+  ]],
+
+  // chris & aaron engagement party
+  [230, 240, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "To start the fall, we celebrated with Chris & Aaron at their engagement party", [
+    
   ]],
 
   // Karen & Alejandro wedding - Sept 8
 
-  // enjoying the home (apple picking) 
-
   // Molly's dirth thirty - Tough Mudder - early Oct
-
-  // chris & aaron engagement party - ???
 
   // pumpking festival
 
