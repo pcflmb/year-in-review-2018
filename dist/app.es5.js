@@ -21,18 +21,26 @@ var yearEvents = [
   ]],
 
   // visit Oliver & Alyse - ???
-  [18, 24, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "", []],
-  [24, 30, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "", [
+  [18, 24, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "Then we headed down to San Diego to visit some friends", [
     '/img/alyseolivervisit/IMG_0078.jpeg', '/img/alyseolivervisit/IMG_0068.jpeg', '/img/alyseolivervisit/IMG_0086.jpeg', 
   ]],
-  [30, 36, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "", []],
+  [24, 30, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "Then we headed down to San Diego to visit some friends", [
+    '/img/alyseolivervisit/IMG_0078.jpeg', '/img/alyseolivervisit/IMG_0068.jpeg', '/img/alyseolivervisit/IMG_0086.jpeg', 
+  ]],
+  [30, 36, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "Then we headed down to San Diego to visit some friends", [
+    '/img/alyseolivervisit/IMG_0078.jpeg', '/img/alyseolivervisit/IMG_0068.jpeg', '/img/alyseolivervisit/IMG_0086.jpeg', 
+  ]],
 
   // ski in feb
-  [36, 42, [-122.2364, 37.4852], [-120.1210934, 39.2745678], null, "After a few big snow storms we went skiing in Tahoe", []],
+  [36, 42, [-122.2364, 37.4852], [-120.1210934, 39.2745678], null, "After a few big snow storms we went skiing in Tahoe", [
+    '/img/skiing/0.jpg', '/img/skiing/1.jpg', '/img/skiing/2.jpg', '/img/skiing/3.jpg', '/img/skiing/4.jpg',
+  ]],
   [42, 50, [-120.1210934, 39.2745678], [-120.1210934, 39.2745678], null, "After a few big snow storms we went skiing in Tahoe", [
     '/img/skiing/0.jpg', '/img/skiing/1.jpg', '/img/skiing/2.jpg', '/img/skiing/3.jpg', '/img/skiing/4.jpg',
   ]],
-  [50, 56, [-120.1210934, 39.2745678], [-122.2364, 37.4852], null, "After a few big snow storms we went skiing in Tahoe", []],
+  [50, 56, [-120.1210934, 39.2745678], [-122.2364, 37.4852], null, "After a few big snow storms we went skiing in Tahoe", [
+    '/img/skiing/0.jpg', '/img/skiing/1.jpg', '/img/skiing/2.jpg', '/img/skiing/3.jpg', '/img/skiing/4.jpg',
+  ]],
 
   // house search
   [60, 90, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "The next few months we were busy with our house hunt", []],
@@ -453,7 +461,7 @@ function updateDestinationMarker (scrollPercent) {
             endDay = yearEvent[1]
         var destinationMarkerCircle = yearEvent[yearEvent.length - 1].marker
         var tooltipDiv = yearEvent[yearEvent.length - 1].tooltip
-        if (dayNum >= endDay) {
+        if (dayNum >= startDay) {
             setCircleClass(destinationMarkerCircle, 'destination-marker active')
             lastActive = destinationMarkerCircle
             if (lastTooltip !== null) {
