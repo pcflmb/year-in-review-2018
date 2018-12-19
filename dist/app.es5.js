@@ -57,7 +57,7 @@ var yearEvents = [
 
   // oliver & alyse wedding - ??
   [150, 161, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "A few weeks later, we partied with Alyse and Oliver at their wedding!", [
-    '/img/alyseoliverwedding/IMG_0935.jpeg', '/img/alyseoliverwedding/IMG_0936.jpeg', '/img/alyseoliverwedding/IMG_0948.JPG', '/img/alyseoliverwedding/wings.jpg', '/img/alyseoliverwedding/IMG_0978.jpeg', '/img/alyseoliverwedding/IMG_0985.jpeg', '/img/alyseoliverwedding/IMG_0998.jpeg', '/img/alyseoliverwedding/IMG_1053.jpeg',
+    '/img/alyseoliverwedding/IMG_0935.jpeg', '/img/alyseoliverwedding/IMG_0936.jpeg', '/img/alyseoliverwedding/IMG_0948.JPG', '/img/alyseoliverwedding/wings.jpg', '/img/alyseoliverwedding/IMG_0978.jpeg', '/img/alyseoliverwedding/IMG_0985.jpeg', '/img/alyseoliverwedding/IMG_0998.jpeg', '/img/alyseoliverwedding/IMG_1053.JPG',
   ]],
 
   // verve tournament in Tahoe
@@ -76,12 +76,19 @@ var yearEvents = [
   ]],
   
   // bought our home!!! - middle of July
-  [200, 205, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "This week, we officialy purchased on our new home!", [
-
+  [200, 205, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We officialy purchased on our new home in Pacifica!", [
+    '/img/newhome/IMG_1422.PNG', '/img/newhome/IMG_1423.PNG', '/img/newhome/IMG_1424.PNG', '/img/newhome/IMG_1425.PNG', '/img/newhome/IMG_1426.PNG', '/img/newhome/IMG_1430.PNG', '/img/newhome/IMG_1431.PNG', '/img/newhome/IMG_1432.PNG', '/img/newhome/IMG_1433.PNG', '/img/newhome/IMG_1434.PNG', '/img/newhome/IMG_1435.PNG', '/img/newhome/IMG_1436.PNG', '/img/newhome/IMG_1437.PNG', '/img/newhome/IMG_1438.PNG', '/img/newhome/IMG_1439.PNG', '/img/newhome/IMG_1440.PNG', '/img/newhome/IMG_1441.PNG', '/img/newhome/IMG_1442.PNG', '/img/newhome/IMG_1443.PNG', '/img/newhome/IMG_1444.PNG', '/img/newhome/IMG_1445.PNG', '/img/newhome/IMG_1720.jpeg', '/img/newhome/IMG_1725.jpeg', '/img/newhome/polar.jpg', 
   ]],
+
   // floating in Tahoe - end of July
+  [205, 215, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "To finish the summer strong, we went floating down the Tahoe river", [
+    '/img/floating/0.JPG', '/img/floating/IMG_0001.JPG', '/img/floating/IMG_0018.JPG', '/img/floating/IMG_0029.jpeg', '/img/floating/IMG_0031.JPG', '/img/floating/IMG_0038.JPG', '/img/floating/IMG_0043.JPG', '/img/floating/IMG_0047.JPG', '/img/floating/IMG_0052.JPG', '/img/floating/IMG_1459.jpeg', '/img/floating/IMG_1477.jpeg', 
+  ]],
 
   // camping with the Perry's - early Sept??
+  [215, 225, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "...and went camping a few weeks later in Soda Springs", [
+    '/img/camping/forest.jpg', '/img/camping/IMG_1597.jpeg', '/img/camping/IMG_1600.jpeg', '/img/camping/IMG_1607.jpeg', '/img/camping/IMG_1613.jpeg', '/img/camping/IMG_1632.jpeg', '/img/camping/IMG_1645.jpeg', '/img/camping/IMG_1657.jpeg', '/img/camping/IMG_1674.jpeg', 
+  ]],
 
   // Karen & Alejandro wedding - Sept 8
 
@@ -105,104 +112,7 @@ var yearEvents = [
 
   // Brendan birthday Wine & Karaoke
 
-    // chang mai to bangkok
-/*    [5, 10, [100.6920, 17.2881], [101.2084, 13.3044], null, "Our last stop in SE Asia was Thailand",
-    ['/img/DSC_0916.JPG', '/img/DSC_0917.JPG', ['/img/BNL_0248.JPG', ''], ['/img/BNL_0275.JPG', ''], ['/img/BNL_0292.JPG', 'Sneaky photo of the Jade Buddah'], ['/img/BNL_0303.JPG', '']]],
-    // bangkok to san francisco 
-    [10, 14, [101.2084, 13.3044], [-122.2364, 37.4852], null, "", []],
-    // lake tahoe
-    [28, 35, [-122.2364, 37.4852], [-120.1207, 39.2751], null, "We went skiing in Tahoe",
-    [['/img/IMG_6064.JPG', ''], ['/img/IMG_6069.JPG', ''], ['/img/IMG_6073.JPG', '']]],
-    [38, 45, [-120.1207, 39.2751], [-122.2364, 37.4852], null, "We went skiing in Tahoe", []],
-    // pinnacles
-    [65, 75, [-122.2364, 37.4852], [-121.1825, 36.4906], null, "We took a day trip to Pinnacles NP",
-    [['/img/BNL_0007.JPG', ''], ['/img/BNL_0014.JPG', ''], ['/img/BNL_0020.JPG', ''], ['/img/BNL_0031.JPG', ''],
-    ['/img/BNL_0033.JPG', ''], ['/img/BNL_0045.JPG', ''], ['/img/BNL_0056.JPG', ''], ['/img/BNL_0058.JPG', ''],
-    ['/img/BNL_0060.JPG', ''], ['/img/BNL_0066.JPG', '']]],
-    [75, 80, [-121.1825, 36.4906], [-122.2364, 37.4852], null, "We took a day trip to Pinnacles NP", []],
-    // Hanging out in the bay area
-    [80, 80.01, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "For the next few months, we hung out around the bay...",
-    [['/img/IMG_6188.JPG', ''], ['/img/IMG_6214.JPG', ''], ['/img/IMG_6229.JPG', ''], ['/img/IMG_6250.JPG', ''],
-    ['/img/IMG_6430.JPG', ''], ['/img/IMG_6558.JPG', ''], ['/img/IMG_6587.JPG', '']]],
-    [80.01, 130, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "For the next few months, we hung out around the bay...", []],
-    // Lauren in San Diego for Laura Martin
-    [130, 136, [-122.2364, 37.4852], [-117.1611, 32.7157], "#e23434", "Lauren went to San Diego for Laura Martin's bachelorette",
-    [['/img/IMG_6496.JPG', ''], ['/img/IMG_6503.JPG', '']]],
-    [138, 140, [-117.1611, 32.7157], [-122.2364, 37.4852], "#e23434", "Lauren went to San Diego for Laura Martin's bachelorette", []],
-    // bridal shower
-    [140, 142, [-122.2364, 37.4852], [-122.4286, 37.4636], "#e23434", "",
-    [['/img/IMG_5079.jpg', ''], ['/img/IMG_5080.jpg', ''], ['/img/IMG_5083.jpg', ''], ['/img/IMG_5108.jpg', ''],
-    ['/img/IMG_5113.jpg', ''], ['/img/IMG_5114.jpg', ''], ['/img/IMG_5121.jpg', ''], ['/img/IMG_5133.jpg', ''],
-    ['/img/IMG_5140.jpg', ''], ['/img/IMG_5151.jpg', ''], ['/img/IMG_5166.jpg', ''], ['/img/IMG_5190.jpg', ''],
-    ['/img/IMG_5202.jpg', ''], ['/img/IMG_5203.jpg', ''], ['/img/IMG_5208.jpg', ''], ['/img/IMG_5211.jpg', ''],
-    ['/img/IMG_5212.jpg', ''], ['/img/IMG_5213.jpg', ''], ['/img/IMG_5219.jpg', ''], ['/img/IMG_5223.jpg', ''],
-    ['/img/IMG_5225.jpg', ''], ['/img/IMG_5251.jpg', ''], ['/img/IMG_5256.jpg', ''], ['/img/IMG_5259.jpg', ''],
-    ['/img/IMG_5261.jpg', ''], ['/img/IMG_6544.JPG', ''], ['/img/IMG_6548.JPG', ''], ['/img/IMG_6562.JPG', ''], ['/img/IMG_6563.JPG', '']]],
-    [142, 144, [-122.4286, 37.4636], [-122.2364, 37.4852], "#e23434", "", []],
-    // portland
-    [144, 149, [-122.2364, 37.4852], [-122.6765, 45.5231], "#e23434", "Lauren's bachelorette party was in Portland, OR!",
-    ['/img/IMG_6632.JPG', '/img/IMG_6640.JPG', '/img/IMG_6644.JPG', '/img/IMG_6654.JPG', '/img/IMG_6655.JPG', '/img/IMG_6657.JPG', '/img/IMG_6660.jpg',
-    '/img/IMG_6668.JPG', '/img/IMG_6675.JPG', '/img/IMG_6680.JPG', '/img/IMG_6702.JPG', '/img/IMG_6708.JPG', '/img/IMG_6710.JPG', '/img/IMG_6746.JPG',
-    '/img/IMG_6749.JPG', '/img/IMG_6750.JPG', '/img/IMG_6772.JPG', '/img/IMG_6775.JPG', '/img/IMG_6776.JPG', '/img/IMG_6777.JPG', '/img/IMG_6779.JPG',
-    '/img/IMG_6780.JPG', '/img/IMG_6794.JPG', '/img/IMG_6817.JPG', '/img/IMG_6825.JPG']],
-    [149, 154, [-122.6765, 45.5231], [-122.2364, 37.4852], "#e23434", "Lauren's bachelorette party was in Portland, OR!", []],
-    // austin
-    [154, 159, [-122.2364, 37.4852], [-97.7431, 30.2672], "#0e3374", "Brendan went down to Austin, TX for his bachelor party", []],
-    [159, 164, [-97.7431, 30.2672], [-122.2364, 37.4852], "#0e3374", "Brendan went down to Austin, TX for his bachelor party", []],
-    // Brendan in Japan
-    [170, 174, [-122.2364, 37.4852], [135.5022, 34.6937], "#0e3374", "Brendan went to Japan for a business trip.", []],
-    [174, 177, [135.5022, 34.6937], [139.6917, 35.6895], "#0e3374", "Bullet train to Tokyo!", []],
-    [177, 180, [139.6917, 35.6895], [135.5022, 34.6937], "#0e3374", "Bullet train to Tokyo!", []],
-    [180, 184, [135.5022, 34.6937], [-122.2364, 37.4852], "#0e3374", "", []],
-    // LM Wedding in Ohio
-    [185, 187, [-122.2364, 37.4852], [-81.6944, 41.4993], null, "Going to Ohio for Laura's wedding",
-    ['/img/IMG_7034.JPG', '/img/IMG_7007.JPG', '/img/IMG_6989.JPG', '/img/MM_001.JPG', '/img/IMG_7018.JPG',
-    '/img/IMG_7026.JPG', '/img/MM_002.JPG', ]],
-    [188, 190, [-81.6944, 41.4993], [-122.2364, 37.4852], null, "Going to Ohio for Laura's wedding", []],
-    // sonoma... wedding!
-    [195, 196, [-122.2364, 37.4852], [-122.4580, 38.2919], null, "Headed to Sonoma for our big day!",
-    ['/img/11.JPG', '/img/13.JPG', '/img/19.JPG', '/img/2.JPG', '/img/22.JPG', '/img/27.JPG', '/img/32.JPG', '/img/35.JPG', '/img/39.JPG', '/img/4.JPG', '/img/40.JPG', '/img/41.JPG', '/img/55.JPG', '/img/7.JPG', '/img/8.JPG', '/img/0002.jpg', '/img/0004.jpg', '/img/0005.jpg', '/img/0006.jpg', '/img/0022.jpg', '/img/0029.jpg', '/img/0030.jpg', '/img/0031.jpg', '/img/0032.jpg', '/img/0033.jpg', '/img/0034.jpg', '/img/0035.jpg', '/img/0040.jpg', '/img/0060.jpg', '/img/0067.jpg', '/img/0070.jpg', '/img/0077.jpg', '/img/0084.jpg', '/img/0085.jpg', '/img/0087.jpg', '/img/0096.jpg', '/img/0098.jpg', '/img/0101.jpg', '/img/0105.jpg', '/img/0114.jpg', '/img/0149.jpg', '/img/0150.jpg', '/img/0155.jpg', '/img/0156rev.jpg', '/img/0158rev.jpg', '/img/0162.jpg', '/img/0166.jpg', '/img/0170.jpg', '/img/0175.jpg', '/img/0178.jpg', '/img/0181.jpg', '/img/0184.jpg', '/img/0188.jpg', '/img/0189.jpg', '/img/0196.jpg', '/img/0198.jpg', '/img/0201.jpg', '/img/0203.jpg', '/img/0206.jpg', '/img/0219.jpg', '/img/0222.jpg', '/img/0224.jpg', '/img/0225.jpg', '/img/0230.jpg', '/img/0240.jpg', '/img/0243.jpg', '/img/0248.jpg', '/img/0249.jpg', '/img/0252.jpg', '/img/0257.jpg', '/img/0266.jpg', '/img/0268.jpg', '/img/0272.jpg', '/img/0273.jpg', '/img/0277.jpg', '/img/0280.jpg', '/img/0282.jpg', '/img/0286.jpg', '/img/0295.jpg', '/img/0334.jpg', '/img/0339.jpg', '/img/0348.jpg', '/img/0360.jpg', '/img/0379.jpg', '/img/0396.jpg', '/img/0408.jpg', '/img/0426.jpg', '/img/0438.jpg', '/img/0456.jpg', '/img/0457.jpg', '/img/0475.jpg', '/img/0482.jpg', '/img/0484.jpg', '/img/0491.jpg', '/img/0492.jpg', '/img/0493.jpg', '/img/0495.jpg', '/img/0497.jpg', '/img/0503.jpg', '/img/0508.jpg', '/img/0511.jpg', '/img/0513.jpg', '/img/0517.jpg', '/img/0518.jpg', '/img/0519.jpg', '/img/0521.jpg', '/img/0523.jpg', '/img/0528.jpg', '/img/0529.jpg', '/img/0532.jpg', '/img/0582.jpg', '/img/0624.jpg', '/img/0631.jpg', '/img/0644.jpg', '/img/0659.jpg', '/img/0664.jpg', '/img/0668.jpg', '/img/0677.jpg', '/img/0681.jpg', '/img/0686.jpg', '/img/0688.jpg', '/img/0693.jpg', '/img/0694.jpg', '/img/0695.jpg', '/img/0697.jpg', '/img/0702.jpg', '/img/0704.jpg', '/img/0709.jpg', '/img/0714.jpg', '/img/0721.jpg', '/img/0722.jpg', '/img/0726.jpg', '/img/0728.jpg', '/img/0731rev.jpg', '/img/0734.jpg', '/img/0735.jpg', '/img/0743.jpg', '/img/0754.jpg', '/img/0763.jpg', '/img/0765.jpg', '/img/0766.jpg', '/img/0769.jpg', '/img/0772.jpg', '/img/0773.jpg', '/img/0774.jpg', '/img/0776.jpg', '/img/0777.jpg', '/img/0780.jpg', '/img/0781.jpg', '/img/0783.jpg', '/img/0785.jpg', '/img/0786.jpg', '/img/0788.jpg', '/img/0790rev.jpg', '/img/0794.jpg', '/img/0798.jpg', '/img/0800.jpg', '/img/0803.jpg', '/img/0814.jpg', '/img/0847.jpg', '/img/0851.jpg', '/img/0855.jpg']],
-    [196, 203, [-122.4580, 38.2919], [-122.2364, 37.4852], null, "Headed to Sonoma for our big day!", []],
-    // Ireland
-    [203, 205, [-122.2364, 37.4852], [-6.2603, 53.3498], null, "Off for our Honeymoon... First stop is Ireland 🇮🇪",
-    ['/img/img_20170723_154842.jpg', '/img/img_20170724_145351.jpg', '/img/img_20170724_160541.jpg', '/img/img_20170724_172550_01.jpg']],
-    [205, 207, [-6.2603, 53.3498], [-9.4265, 52.9719], null, "Off for our Honeymoon... First stop is Ireland 🇮🇪",
-    ['/img/img_20170725_115315.jpg', '/img/img_20170725_153207.jpg', '/img/file_0001.jpeg']],
-    [207, 209, [-9.4265, 52.9719], [-9.5044, 52.0599], null, "Off for our Honeymoon... First stop is Ireland 🇮🇪",
-    ['/img/bnl_0213.jpg', '/img/file_002.jpeg', '/img/img_20170727_143505.jpg', '/img/lauren-22.jpg', '/img/lauren_2.jpg']],
-    [209, 211, [-9.5044, 52.0599], [-6.2603, 53.3498], null, "Off for our Honeymoon... First stop is Ireland 🇮🇪",
-    ['/img/lauren-7.jpg', '/img/img_20170724_160541.jpg', '/img/img_20170724_172550_01.jpg', '/img/img_20170724_145351.jpg', '/img/img_20170723_154842.jpg']],
-    // Germany / Switzerland
-    [211, 211.5, [-6.2603, 53.3498], [8.6821, 50.1109], null, "Next, we headed to Germany 🇩🇪", []],
-    [211.5, 212, [8.6821, 50.1109], [7.7273, 50.1065], null, "Next, we headed to Germany 🇩🇪",
-    ['/img/img_20170730_151002.jpg', '/img/lauren-16.jpg', '/img/lauren-23.jpg', '/img/lauren-6.jpg']],
-    [212, 213, [7.7273, 50.1065], [8.2285, 48.7656], null, "Next, we headed to Germany 🇩🇪",
-    ['/img/img_20170731_174728.jpg', '/img/img_20170801_115221.jpg', '/img/img_20170801_115259.jpg', '/img/img_20170801_125218.jpg', '/img/img_20170802_231016.jpg']],
-    [216, 216.5, [8.2285, 48.7656], [9.6789, 47.5798], null, "Next, we headed to Germany 🇩🇪",
-    []],
-    [216.5, 217, [9.6789, 47.5798], [9.3767, 47.4245], null, "Bye-bye Germany. Hello Switzerland 🇨🇭",
-    ['/img/BNL_0400.JPG', '/img/BNL_0405.JPG', '/img/BNL_0414.JPG', '/img/BNL_0464.JPG', '/img/BNL_0517.JPG', '/img/BNL_0548.JPG', '/img/BNL_0611.JPG', '/img/BNL_0656.JPG']],
-    [217, 219, [9.3767, 47.4245], [9.3767, 47.4245], null, "Bye-bye Germany. Hello Switzerland 🇨🇭",
-    ['/img/BNL_0400.JPG', '/img/BNL_0405.JPG', '/img/BNL_0414.JPG', '/img/BNL_0464.JPG', '/img/BNL_0517.JPG', '/img/BNL_0548.JPG', '/img/BNL_0611.JPG', '/img/BNL_0656.JPG']],
-    [219, 220, [9.3767, 47.4245], [11.5820, 48.1351], null, "",
-    ['/img/BNL_0002.JPG', '/img/BNL_H0060.JPG', '/img/BNL_0680.JPG']],
-    // Sicily
-    [220, 221, [11.5820, 48.1351], [15.2853, 37.8516], null, "We spent the final week of our honeymoon in Toarmina, Sicily 🇮🇹",
-    ['/img/BNL_0082.JPG', '/img/BNL_0103.JPG', '/img/BNL_0130.JPG', '/img/BNL_0151.JPG', '/img/BNL_0255.JPG', '/img/BNL_0266.JPG', '/img/BNL_0342.JPG', '/img/BNL_0351.JPG', '/img/BNL_0424.JPG', '/img/BNL_0450.JPG']],
-    [221, 227, [15.2853, 37.8516], [15.2853, 37.8516], null, "We spent the final week of our honeymoon in Toarmina, Sicily 🇮🇹",
-    ['/img/BNL_0082.JPG', '/img/BNL_0103.JPG', '/img/BNL_0130.JPG', '/img/BNL_0151.JPG', '/img/BNL_0255.JPG', '/img/BNL_0266.JPG', '/img/BNL_0342.JPG', '/img/BNL_0351.JPG', '/img/BNL_0424.JPG', '/img/BNL_0450.JPG']],
-    [227, 228, [15.2853, 37.8516], [-6.2603, 53.3498], null, "Headed back home 🇺🇸", []],
-    [228, 230, [-6.2603, 53.3498], [-122.2364, 37.4852], null, "Headed back home 🇺🇸", []],
-    // yosemite
-    [240, 250, [-122.2364, 37.4852], [-119.5383, 37.8651], null, "We camped in Yosemite NP and climed Half Dome!",
-    ['/img/BNL_Y0722.JPG', '/img/BNL_Y0015.JPG', '/img/BNL_Y0556.JPG', '/img/BNL_Y0681.JPG', '/img/BNL_Y0696.JPG', '/img/BNL_Y0711.JPG',
-    '/img/BNL_Y0562.JPG', '/img/BNL_Y0600.JPG', '/img/BNL_Y0604.JPG', '/img/BNL_Y0634.JPG', '/img/BNL_Y0028.JPG']],
-    [250, 252, [-119.5383, 37.8651], [-122.2364, 37.4852], null, "We camped in Yosemite NP and climed Half Dome!", []],
-    // big sur
-    [320, 330, [-122.2364, 37.4852], [-121.412190, 36.013758], null, "We did a weekend camping trip in Big Sur and brought the dogs along!",
-    ['/img/IMG_8235.JPG', '/img/IMG_8236.JPG', '/img/IMG_8237.JPG', '/img/IMG_8245.JPG', '/img/IMG_8258.JPG', '/img/IMG_8283.JPG', '/img/IMG_8286.JPG', '/img/IMG_8289.JPG', '/img/IMG_8290.JPG']],
-    [330, 335, [-121.412190, 36.013758], [-122.2364, 37.4852], null, "We did a weekend camping trip in Big Sur and brought the dogs along!", []],
-*/
+  // ???
 ]
 
 var DAYS_IN_YEAR = 365
