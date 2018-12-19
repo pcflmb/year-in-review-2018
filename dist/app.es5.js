@@ -12,25 +12,25 @@ var yearEvents = [
   // start in RWC
   [-100, -100, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "", []],
   [-10, 5, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We spent new years relaxing in RWC with friends", [
-    '/img/BNL_0039.JPG', 
+    '/img/newyears/IMG_8361.JPG', '/img/newyears/IMG_8364.jpeg', '/img/newyears/IMG_8367.jpeg', '/img/newyears/IMG_8581.JPG', '/img/newyears/prep_for_wine_party.jpg', '/img/newyears/BNL_0039.JPG', 
   ]],
 
   // Lauren Birthday
   [5, 15, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "For Lauren's birthday we went to a speakeasy theater after dinner on the water", [
-    
+    '/img/speakeasy/IMG_8606.JPG', '/img/speakeasy/good_1.jpg', '/img/speakeasy/costume_1.jpg', '/img/speakeasy/costume_2.jpg', '/img/speakeasy/inside_1.jpg', '/img/speakeasy/speakeasy_pt2.jpg', 
   ]],
 
   // visit Oliver & Alyse - ???
   [18, 24, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "", []],
   [24, 30, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "", [
-    
+    '/img/alyseolivervisit/IMG_0078.jpeg', '/img/alyseolivervisit/IMG_0068.jpeg', '/img/alyseolivervisit/IMG_0086.jpeg', 
   ]],
   [30, 36, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "", []],
 
   // ski in feb
   [36, 42, [-122.2364, 37.4852], [-120.1210934, 39.2745678], null, "After a few big snow storms we went skiing in Tahoe", []],
   [42, 50, [-120.1210934, 39.2745678], [-120.1210934, 39.2745678], null, "After a few big snow storms we went skiing in Tahoe", [
-    'img/skiing/1.jpg', 'img/skiing/2.jpg', 'img/skiing/3.jpg', 'img/skiing/4.jpg',
+    '/img/skiing/0.jpg', '/img/skiing/1.jpg', '/img/skiing/2.jpg', '/img/skiing/3.jpg', '/img/skiing/4.jpg',
   ]],
   [50, 56, [-120.1210934, 39.2745678], [-122.2364, 37.4852], null, "After a few big snow storms we went skiing in Tahoe", []],
 
@@ -39,21 +39,38 @@ var yearEvents = [
 
   // easter with Jeff & family - April 1
   [90, 99, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "Easter with the family", [
-    'img/l/IMG_0298.jpeg', 'img/l/IMG_0282.jpeg',
+    '/img/easter/IMG_0298.jpeg', '/img/easter/IMG_0282.jpeg', '/img/easter/IMG_0284.JPG', '/img/easter/IMG_0281.JPG', 
   ]],
 
   // wine tasting weekend - memorial day weekend???
+  [135, 145, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We spent memorial day weekend wine tasting in Sonoma", [
+    '/img/maywinetaste/BNL_0046.JPG', '/img/maywinetaste/IMG_0754.jpeg', '/img/maywinetaste/IMG_0756.jpeg', '/img/maywinetaste/IMG_0762.jpeg', '/img/maywinetaste/IMG_0766.jpeg', '/img/maywinetaste/IMG_0767.jpeg', '/img/maywinetaste/IMG_0782.jpeg', '/img/maywinetaste/IMG_0785.jpeg', '/img/maywinetaste/IMG_0788.jpeg', '/img/maywinetaste/IMG_0790.jpeg', '/img/maywinetaste/IMG_0792.jpeg', '/img/maywinetaste/IMG_0797.jpeg', '/img/maywinetaste/IMG_0802.jpeg', '/img/maywinetaste/IMG_0804.jpeg', '/img/maywinetaste/IMG_0809.jpeg', 
+  ]],
 
   // oliver & alyse wedding - ??
+  [150, 161, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "A few weeks later, we partied with Alyse and Oliver at their wedding!", [
+    '/img/alyseoliverwedding/IMG_0935.jpeg', '/img/alyseoliverwedding/IMG_0936.jpeg', '/img/alyseoliverwedding/IMG_0948.JPG', '/img/alyseoliverwedding/wings.jpg', '/img/alyseoliverwedding/IMG_0978.jpeg', '/img/alyseoliverwedding/IMG_0985.jpeg', '/img/alyseoliverwedding/IMG_0998.jpeg', '/img/alyseoliverwedding/IMG_1053.jpeg',
+  ]],
 
   // verve tournament in Tahoe
+  [165, 175, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "Then we roadtripped to Tahoe to coach a lacrosse tournament", [
+    '/img/vervetournament/IMG_1093.jpeg', '/img/vervetournament/IMG_1076.jpeg', '/img/vervetournament/IMG_1080.jpeg',
+  ]],
 
   // 4th of July in Fremont - 4th July
+  [182, 192, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We celebrated the 4th of July 🇺🇸", [
+    '/img/4thjuly/IMG_1253.jpeg', '/img/4thjuly/IMG_1257.jpeg', '/img/4thjuly/IMG_1311.jpeg', '/img/4thjuly/IMG_1320.jpeg', 
+  ]],
 
-  // bastille day - ??
-
+  // bastille day - 
+  [192, 199, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "Then we celebrated Bastille day in Sonoma", [
+    '/img/bastilleday/IMG_1405.jpeg', '/img/bastilleday/IMG_1415.jpeg', '/img/bastilleday/IMG_1419.jpeg', 
+  ]],
+  
   // bought our home!!! - middle of July
+  [200, 205, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "This week, we officialy purchased on our new home!", [
 
+  ]],
   // floating in Tahoe - end of July
 
   // camping with the Perry's - early Sept??
