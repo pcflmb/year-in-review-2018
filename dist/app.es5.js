@@ -96,18 +96,39 @@ var yearEvents = [
   ]],
 
   // Karen & Alejandro wedding - Sept 8
+  [250, 260, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We celebrated the wedding of Karen & Alejandro", [
+
+  ]],
 
   // Molly's dirth thirty - Tough Mudder - early Oct
+  [275, 285, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "For Molly's 30th birthday, we joined her in a Tough Mudder race!", [
+
+  ]],
 
   // pumpking festival
+  [285, 295, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "Half Moon Bay hosted the annual Pumpkin Festival", [
+
+  ]],
 
   // Lauren -> Alabama
+  [295, 305, [-122.2364, 37.4852], [-122.2364, 37.4852], "#e23434", "Lauren went to Alabama with Aaron and some of her other bridesmaids<br>&nbsp;", [
+
+  ]],
 
   // Brendan -> Las Vegas
+  [295, 305, [-122.2364, 37.4852], [-122.2364, 37.4852], "#0e3374", "&nbsp;<br>Brendan went to Las Vegas with Chris", [
+
+  ]],
 
   // halloween!
+  [305, 308, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We had our first Halloween at the new home", [
+
+  ]],
 
   // housewarming party - beginning of November
+  [308, 320, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "Our housewarming party was so much fun! It was an Oyster & Rose Soiree", [
+
+  ]],
 
   // Thanksgiving
 
