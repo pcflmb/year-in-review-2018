@@ -131,10 +131,14 @@ var yearEvents = [
   ]],
 
   // Thanksgiving
+  [325, 335, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "We also hosted Thanksgiving at our home this year", [
+
+  ]],
 
   // Brendan birthday Wine & Karaoke
+  [335, 345, [-122.2364, 37.4852], [-122.2364, 37.4852], null, "For Brendan's birthday we drank some wine, then went to a karaoke bar", [
 
-  // ???
+  ]],
 ]
 
 var DAYS_IN_YEAR = 365
